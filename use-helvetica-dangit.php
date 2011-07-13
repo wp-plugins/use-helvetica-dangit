@@ -2,10 +2,10 @@
 /*
 Plugin Name: Use Helvetica Dangit
 Plugin URI: http://somadesign.ca/
-Description: WordPress 3.2 uses Arial in the admin. It might steal sheep too.
+Description: This plugin is pointless as of WP 3.2.1. The scourge or Arial has been removed. Deactivate me.
 Author: Soma Design
 Author URI: http://somadesign.ca/
-Version: 1.0
+Version: 1.0.1
 Network: true
 */
 /*
@@ -31,6 +31,9 @@ TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
 SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 */
 
+// Returning early because this plugin is useless now.
+// Code below left for posterity, such as it is.
+return;
 add_action( 'admin_head', 'use_helvetica_dangit' );
 function use_helvetica_dangit() { ?>
 <style type="text/css"> body, td, textarea, input, select {
